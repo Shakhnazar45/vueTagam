@@ -4,6 +4,13 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import jQuery from 'jquery'
+import 'popper.js'
+import 'bootstrap'
+import './bootstrap/bootstrap.scss'
+
+window.$ = window.jQuery = jQuery
+
 Vue.config.productionTip = false
 
 new Vue({
@@ -11,3 +18,6 @@ new Vue({
   store,
   render: function (h) { return h(App) }
 }).$mount('#app')
+
+
+// Аавторизация и аутентификация срок 1 неделя
