@@ -1,19 +1,24 @@
 <template>
-    <div class="container-fluid main p-0">
+    <div class="main">
+      <div class="container">
         <img src="../assets/Search/shape.png" alt="">
         <input type="text" name="" id="" placeholder="Поиcк">
-        <SearchDefault msg=""/>
+      </div>  
+      <SearchDefault msg=""/>
+      <SearchBody msg=""/>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import SearchDefault from '@/components/SearchDefault.vue'
+
+import SearchDefault from '@/components/searchs/SearchDefault.vue'
+import SearchBody from '@/components/searchs/SearchBody.vue'
 
 export default {
   name: 'Search',
   components: {
-    SearchDefault
+    SearchDefault, SearchBody
   }
 }
+
 </script>
