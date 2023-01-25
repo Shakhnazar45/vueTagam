@@ -30,7 +30,7 @@
                 <p>Напитки</p>
             </div>
         </div>
-        <div class="container-1">
+        <div class="container-1_2">
             <div class="">
                 <img src="../../assets/Search/bakery.png" alt="">
             </div>
