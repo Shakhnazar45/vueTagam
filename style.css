@@ -1,16 +1,73 @@
-h3 {
-  margin: 40px 0 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.container-fluid {
+  height: 307px;
 }
-
-ul {
-  list-style-type: none;
+.container-fluid .container {
+  max-width: 1180px;
+  height: 307px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-fluid .container .HelloText {
+  width: 602px;
+  height: 69px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
   padding: 0;
 }
-ul li {
-  display: inline-block;
-  margin: 0 10px;
+.container-fluid .container .HelloText span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
 }
-
-a {
-  color: #42b983;
+.container-fluid .container .buttons {
+  width: 1020px;
+  height: 96px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-fluid .container .buttons .f-line {
+  width: 1020px;
+  height: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-fluid .container .buttons .f-line .btn {
+  width: auto;
+  height: 38px;
+  border: 1px solid #1A1A1A;
+  border-radius: 19px;
+}
+.container-fluid .container .buttons .s-line {
+  width: 796px;
+  height: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-fluid .container .buttons .s-line .btn {
+  width: auto;
+  height: 38px;
+  border: 1px solid #1A1A1A;
+  border-radius: 19px;
 }

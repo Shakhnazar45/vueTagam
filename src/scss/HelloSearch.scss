@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container-fluid{
+    height: 321px;
+    
+    .container{
+        max-width: 1180px;
+        height: 321px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        
+        border-top: 1px solid #85786A;
+        .list{
+            width: 844px;
+            height: 40px;
+
+            list-style: none;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin: 0;
+            padding: 0;
+
+            .line{
+                width: 1px;
+                height: 40px;
+                background: #85786A;
+
+                font-size: 0.5px;
+            }
+            .link{
+                width: auto;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 24px;
+                    height: 24px;
+
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+
+        .search{
+            width: 1180px;
+            height: 50px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .input{
+                width: 880px;
+                height: 50px;
+
+                background: #F1EACC;
+                border: 1px solid #1A1A1A;
+                border-radius: 19px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                input{
+                    width: 826px;
+                    height: 50px;
+
+                    outline: none;
+
+                    background: transparent;
+
+                    border-radius: 19px;
+                    border: 0;
+
+                    padding: 0 0 0 17px;
+                }
+                img{
+                    width: 25px;
+                    height: 25px;
+
+                    margin: 0 14px 0 0;
+                }
+            }
+            .search-btn{
+                width: 280px;
+                height: 50px;
+
+                border-radius: 19px;
+                background: #F1EACC;
+                border: 1px solid #1A1A1A;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                /* identical to box height */
+                
+                text-align: center;
+                
+                color: #000000;
+                
+            }
+        }
+        .search-buttons{
+            width: 100%;
+            height: 136px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .btn{
+                width: 180px;
+                height: 30px;
+
+                border: 1px solid #000;
+                border-radius: 19px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                
+                text-align: center;
+                text-transform: lowercase;
+                
+                color: #000000;
+            }
+        }
+    }
+}
