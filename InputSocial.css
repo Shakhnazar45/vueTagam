@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.sign-in {
+  width: 298px;
+  height: 96px;
+}
+.sign-in .sign-con {
+  height: 96px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sign-in .sign-con .social {
+  width: 185px;
+  display: flex;
+  justify-content: space-around;
+}
+.sign-in .sign-con .social img {
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+}
+.sign-in .sign-con .reg {
+  width: 298px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F8D776;
+  border-radius: 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}

@@ -1,23 +1,13 @@
 <template>
-  <div class="container-fluid p-0 hello">
-    <div class="container p-0">
-      <p class="HelloText">
-        Ваш лучший кулинарный помошник
-        <span>
-          Поделись со своим фирменны рецептом и сделай мир чуточку вкуснее
-        </span>
-      </p>
-      <div class="buttons">
-        <div class="f-line">
-          <button class="btn" v-for="(buttons, index) in button" v-bind:key="buttons" v-bind:index="index">{{buttons.text}}</button>
-        </div>
-        <div class="s-line">
-          <button class="btn" v-for="(buttones, index) in buttons" v-bind:key="buttones" v-bind:index="index">{{buttones.text}}</button>
-        </div>
-      </div>
+  <div class="container-fluid p-0 input">
+    <div class="contianer p-0 input-con">
+        <p class="welcome">Добро пожаловать</p>
+        <input type="text" placeholder="Логин">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Пароль">
+        <p class="password">Забыли пароль?</p>
     </div>
   </div>
-  
 </template>
 
 <script>
@@ -53,6 +43,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  @import "../../scss/style.scss";
+  @import "../../scss/InputRegistr.scss";
   
 </style>
