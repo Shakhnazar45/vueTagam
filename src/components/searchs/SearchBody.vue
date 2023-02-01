@@ -43,10 +43,10 @@
 
 <script>
 export default {
-  name: 'SearchBody',
-  props: {
-    msg: String
-  }
+    name: 'SearchBody',
+    props: {
+        msg: String
+    }
 }
 </script>
 

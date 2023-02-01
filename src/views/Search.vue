@@ -1,12 +1,12 @@
 <template>
-    <div class="main">
-      <div class="container">
-        <img src="../assets/Search/shape.png" alt="">
-        <input type="text" name="" id="" placeholder="Поиcк">
-      </div>  
-      <SearchDefault msg=""/>
-      <SearchBody msg=""/>
+  <div class="search-main">
+    <div class="container">
+      <img src="../assets/Search/shape.png" alt="">
+      <input type="text" name="" id="" placeholder="Поиcк">
     </div>
+    <SearchDefault msg="" />
+    <SearchBody msg="" />
+  </div>
 </template>
 
 <script>
