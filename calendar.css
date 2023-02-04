@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.calendar {
+  width: 390px;
+  height: 130vmax;
+}
+.calendar .main-con {
+  max-width: 358px;
+  height: 100px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.calendar .main-con .n1 {
+  width: 277px;
+  height: 55px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  border-right: 1px solid #000;
+  margin: 0;
+  padding: 0 14px 8px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.calendar .main-con .n2 {
+  width: 66px;
+  height: 81px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 79px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.calendar .calendar-view {
+  width: 390px;
+  height: 387px;
+}
+.calendar .calendar-view .container {
+  max-width: 358px;
+  height: 387px;
+  border-bottom: 1px solid #85786A;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.calendar .calendar-view .container table {
+  width: 348px;
+  height: 324px;
+}
+.calendar .calendar-view .container table .days {
+  height: 30px;
+}
+.calendar .calendar-view .container table tr {
+  width: 358px;
+  height: 55px;
+}
+.calendar .calendar-view .container table tr .day {
+  background: transparent;
+  height: 20px;
+  font-size: 14px;
+}
+.calendar .calendar-view .container table tr td {
+  width: 42px;
+  height: 51px;
+  border-radius: 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.calendar .calendar-view .container table tr .active {
+  background: #aeb884;
+}
+.calendar .PromtView {
+  width: 390px;
+  height: 287px;
+}
+.calendar .PromtView .container {
+  width: 358px;
+  height: 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar .PromtView .container .month {
+  width: 358px;
+  height: 73px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #85786A;
+}
+.calendar .PromtView .container .month p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+.calendar .PromtView .container .month .n1 {
+  color: #85786A;
+}
+.calendar .PromtView .container .days {
+  width: 358px;
+  height: 137px;
+  border-bottom: 1px solid #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar .PromtView .container .days span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+.calendar .PromtView .container .days .day {
+  width: 153px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 31px;
+}
+.calendar .PromtView .container .days .day p {
+  width: 142px;
+  height: 116px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 85px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  border-right: 1px solid #000;
+}
+.calendar .PromtView .container .days .time {
+  width: 170px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.calendar .PromtView .container .days .time .rec-time {
+  width: 170px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 0 15px 0;
+}
+.calendar .PromtView .container .days .time .rec-time .times {
+  width: 144px;
+  height: 38px;
+  border: 1px solid #1A1A1A;
+  border-radius: 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar .PromtView .container .days .time .rec-time .btn {
+  width: 144px;
+  height: 38px;
+  border-radius: 19px;
+  background: #F8D776;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

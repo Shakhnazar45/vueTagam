@@ -1,0 +1,123 @@
+.ingredients {
+  width: 390px;
+  height: auto;
+}
+.ingredients body {
+  background: #F1EACC;
+}
+.ingredients .container {
+  max-width: 358px;
+}
+.ingredients .top {
+  height: 45px;
+}
+.ingredients .top .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.ingredients .container .img-1 {
+  width: 16px;
+  height: 12px;
+}
+.ingredients .container .img-3 {
+  width: 24px;
+  height: 24px;
+}
+.ingredients .top-text {
+  width: 302px;
+}
+.ingredients .main {
+  height: 63px;
+}
+.ingredients .main .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.ingredients .step {
+  width: 358px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.ingredients .step .img-2 {
+  width: 22px;
+  height: 22px;
+  margin: 1px 16px 0px 0px;
+}
+.ingredients .step-text {
+  width: 300px;
+  height: 55px;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+.ingredients .ingridient {
+  width: 390px;
+  height: auto;
+}
+.ingredients .ingridient .ingredients {
+  height: 670px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 7px 0;
+}
+.ingredients .ingridient .ingredients .container {
+  height: 670px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  padding: 44px 0 62px 0;
+}
+.ingredients .ingridient .ingredients p {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border-bottom: 1px solid #85786A;
+  padding: 0 0 7px 0;
+}
+.ingredients .ingridient .btn-draft {
+  width: 175px;
+  height: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: lowercase;
+  color: #000000;
+  background: #F1EACC;
+  border: 1px solid #000000;
+  border-radius: 19px;
+}
+.ingredients .ingridient .btn-next {
+  width: 175px;
+  height: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: lowercase;
+  color: #000000;
+  background: #F8D776;
+  border: 1px solid #F8D776;
+  border-radius: 19px;
+}

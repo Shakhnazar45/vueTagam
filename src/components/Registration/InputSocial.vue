@@ -17,7 +17,7 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1684 12.5796C19.4897 12.5796 20.6761 13.0336 21.6088 13.9255L24.1902 11.3441C22.6315 9.89182 20.5943 9 18.1684 9C14.6502 9 11.6065 11.0168 10.1256 13.9582L13.1324 16.29C13.8402 14.1627 15.8243 12.5796 18.1684 12.5796Z" fill="#85786A"/>
           </svg>
         </div>
-        <button class="btn reg">Регистрация</button>
+        <router-link to="/autorisation"><button class="btn reg">Регистрация</button></router-link>
     </div>
   </div>
 </template>

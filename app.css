@@ -6,14 +6,23 @@ body {
 
 #app {
   width: 390px;
-  height: 100vmax;
+  height: auto;
   background-color: #F1EACC;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
 }
-#app .list {
+#app nav {
+  width: 390px;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #F1EACC;
+  position: sticky;
+  bottom: 0;
+}
+#app nav .list {
   width: 358px;
   height: 70px;
   display: flex;
@@ -22,16 +31,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  position: sticky;
-  bottom: 0;
 }
-#app .list .link {
+#app nav .list .link {
   width: 24px;
   height: 30px;
 }
-#app .list .link-active {
+#app nav .list .link-active {
   border-bottom: 3px solid #f4d031;
-}
-#app .active {
-  display: none;
 }

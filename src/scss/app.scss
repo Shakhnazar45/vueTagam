@@ -6,39 +6,50 @@ body {
 
 #app{
   width: 390px;
-  height: 100vmax;
+  height: auto;
   background-color: #F1EACC;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  .list{
-    width: 358px;
+  nav{
+    width: 390px;
     height: 70px;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-    list-style: none;
-
-    margin: 0;
-    padding: 0;
-    
-    position: sticky;
+    position: fixed;
     bottom: 0;
 
-    .link{
-      width: 24px;
-      height: 30px;
+    padding: 0;
 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #F1EACC;
+    position: sticky;
+    bottom: 0;
+    .list{
+      width: 358px;
+      height: 70px;
+      
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      list-style: none;
+  
+      margin: 0;
+      padding: 0;
+      
+      
+  
+      .link{
+        width: 24px;
+        height: 30px;
+  
+      }
+      .link-active{
+        border-bottom: 3px solid #f4d031;
+      }
     }
-    .link-active{
-      border-bottom: 3px solid #f4d031;
-    }
-  }
-  .active{
-    display: none;
+    // .active{
+    //   display: none;
+    // }
   }
 }
 
