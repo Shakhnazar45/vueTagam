@@ -10,6 +10,7 @@
                             placeholder="Добавить подпись"></textarea>
                     </div>
                 </div>
+                
                 <div class="block">
                     <div class="img"><img src="../../assets/CreateRecipe/Img_box_light.png" alt=""></div>
                     <div class="text">
@@ -18,14 +19,7 @@
                             placeholder="Добавить подпись"></textarea>
                     </div>
                 </div>
-                <div class="block">
-                    <div class="img"><img src="../../assets/CreateRecipe/Img_box_light.png" alt=""></div>
-                    <div class="text">
-                        <p>3 шаг</p>
-                        <textarea name="" id="" cols="30" rows="10" class="input"
-                            placeholder="Добавить подпись"></textarea>
-                    </div>
-                </div>
+
                 <div class="enter">
                     <img src="../../assets/CreateRecipe/add.png" alt="">
                     <p>Добавить</p>
