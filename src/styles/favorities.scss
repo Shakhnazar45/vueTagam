@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+body {
+    background: #F1EACC;
+}
+
+.favorities {
+
+    .container {
+        max-width: 358px;
+    }
+
+    .main .container {
+        height: 60px;
+        display: flex;
+        align-items: flex-end;
+        border-bottom: 1px solid #000;
+    }
+
+    .main .container p {
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #1A1A1A;
+    }
+
+    .main .container img {
+        width: 17px;
+        height: 17px;
+        margin: 0px 0px 21px 193px;
+    }
+
+    .favo {
+        height: 816px;
+        .recept,
+        .recepts {
+            height: 403px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .recept-con {
+            max-width: 358px;
+            height: 386px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+
+        .recept-con .block {
+            width: 358px;
+            height: 299px;
+            border-radius: 19px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .tom-yam {
+            font-family: "Montserrat Alternates";
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #1A1A1A;
+            margin: 13px 0 0 0;
+        }
+
+        .ty {
+            width: 358px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid #000;
+        }
+
+        .ty img {
+            width: 22px;
+            height: 22px;
+            margin: 16px 11px 0 0;
+        }
+
+        .tom-yam2 {
+            width: 267px;
+            height: 55px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #000000;
+
+            border-right: 1px solid #000;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .recept11,
+        .recepts11 {
+            height: 403px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .recept-con11 {
+            max-width: 358px;
+            height: 386px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+
+        }
+
+        .recept-con11 .block11 {
+            width: 358px;
+            height: 299px;
+            border-radius: 19px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .tom-yam11 {
+            font-family: "Montserrat Alternates";
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #1A1A1A;
+            margin: 13px 0 0 0;
+        }
+
+        .ty11 {
+            width: 358px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid #000;
+        }
+
+        .ty11 img {
+            width: 22px;
+            height: 22px;
+            margin: 16px 11px 0 0;
+        }
+
+        .tom-yam211 {
+            width: 267px;
+            height: 55px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #000000;
+
+            border-right: 1px solid #000;
+
+            display: flex;
+            align-items: center;
+        }
+    }
+}
