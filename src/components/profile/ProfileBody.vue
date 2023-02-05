@@ -33,7 +33,7 @@
         </div>
         <div class="society">
           <p class="m-0 text-soc">
-            <img class="img-1" src="../../assets/Profile/inst.png" alt="">
+            <img class="img-1" src="../../assets/MenuImg/socials.png" alt="">
             <span class="society-link">https://www.instagram.com/daniya_alt/</span>
           </p>
           <p class="m-0 text-soc">

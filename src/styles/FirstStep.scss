@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+body{
+    background: #F1EACC;
+}
+.container{
+    max-width: 358px;
+}
+.main{
+    width: 390px;
+    height: auto;
+    .container{
+        height: 76px;
+        display: flex;
+        align-items: center;
+        .step{
+            width: 358px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+        .step .img-1{
+            width: 16px;
+            height: 12px;
+        }
+        .step .img-2{
+            width: 22px;
+            height: 20px;
+            margin: 1px 16px 0px 0px;
+        }
+        .step-text{
+            width: 265px;
+            height: 55px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            
+            color: #000000;
+            border-right: 1px solid #000;
+        
+            display: flex;
+            align-items: center;
+            margin: 0 0 0 0;
+        }
+    }
+    .steping{
+        width: 390px;
+        height: auto;
+        .properties .container{
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .properties .container img{
+            width: 20px;
+            height: 20px;
+        }
+        .user, .time, .star{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #1A1A1A;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-indent: 10.33px;
+    
+        }
+        .user p, .time p, .star p{
+            margin: 0;
+        }
+        .recept{
+            width: 358px;
+            height: auto;
+            display: flex;
+            align-items: flex-end;
+        }
+        .recept-con{
+            max-width: 358px;
+            height: auto;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+        .recept-con .block{
+            height: 509px;
+            // background-image: url(../../SteppingRecipe/step1.png);
+            border-radius: 19px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .recept-con .block p{
+            height: 509px;
+            background: #AEB884;
+            border-radius: 19px 19px 0 0;
+            border: 1px solid #AEB884;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            
+            text-align: center;
+            text-transform: uppercase;
+            
+            color: #1A1A1A;
+        }
+        .description{
+            height: auto    ;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #1A1A1A;
+            margin: 10px 0px 10px 0px;
+            span{
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+    
+    }
+    .action-block{
+        height: 90px;
+        .container{
+            height: 90px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .btn{
+                width: 175px;
+                height: 38px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                text-transform: lowercase;
+                color: #000000;
+                background: #F1EACC;
+                border: 1px solid #000000;
+                border-radius: 19px;
+            }
+            .btn-next{
+                background: #F8D776;
+                border: 1px solid #F8D776;
+            }
+            .btn-ready{
+                background: #C8D7D9;
+                border: 1px solid #C8D7D9;
+            }
+        }
+    }
+    .steps{
+        width: 390px;
+        height: auto;
+    }
+}

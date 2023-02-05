@@ -68,7 +68,7 @@ body {
         }
 
         .rec-name {
-            height: 99px;
+            height: 110px;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -84,9 +84,9 @@ body {
             color: #000000;
         }
 
-        .rn-con input {
+        .rn-con textarea {
             width: 358px;
-            height: 38px;
+            height: auto;
             border: 1px solid #000;
             border-radius: 19px;
             background: rgba(255, 255, 255, 0);
@@ -1056,13 +1056,13 @@ body {
 
     .main2 {
         .blocks {
-            height: 550px;
+            height: auto;
             display: flex;
             align-items: flex-end;
         }
 
         .block-con {
-            height: 528px;
+            height: auto;
             display: flex;
             flex-flow: column;
             justify-content: space-between;
@@ -1071,7 +1071,7 @@ body {
 
         .block {
             width: 358px;
-            height: 145px;
+            height: 160px;
 
             display: flex;
             justify-content: space-around;
