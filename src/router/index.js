@@ -9,6 +9,7 @@ import Recept from  '../views/Recept.vue'
 import ReceptText from  '../views/ReceptText.vue'
 import ReceptIngridient from  '../views/ReceptIngridient.vue'
 import SteppingRecipe from  '../views/Steps/SteppingRecipe.vue'
+import ReadyRecipe from  '../views/Steps/ReadyRecipe.vue'
 
 Vue.use(VueRouter)
 
@@ -60,6 +61,11 @@ const routes = [
     path: '/steping',
     name: 'SteppingRecipe',
     component: SteppingRecipe
+  },
+  {
+    path: '/ready',
+    name: 'ReadyRecipe',
+    component: ReadyRecipe
   },
 ]
 

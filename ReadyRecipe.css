@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap");
+.ready {
+  width: 390px;
+  height: auto;
+}
+.ready body {
+  background: #F1EACC;
+}
+.ready .container {
+  max-width: 358px;
+}
+.ready .main {
+  height: 63px;
+}
+.ready .main .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.ready .step {
+  width: 358px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.ready .step .img-1 {
+  width: 16px;
+  height: 12px;
+}
+.ready .step .img-2 {
+  width: 22px;
+  height: 22px;
+  margin: 1px 16px 0px 0px;
+}
+.ready .step-text {
+  width: 265px;
+  height: 55px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+.ready .properties .container {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ready .properties .container img {
+  width: 20px;
+  height: 20px;
+}
+.ready .user, .ready .time, .ready .star {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  text-indent: 10.33px;
+}
+.ready .user p, .ready .time p, .ready .star p {
+  margin: 0;
+}
+.ready .ready {
+  width: 390px;
+  height: auto;
+}
+.ready .ready .recept {
+  width: 390px;
+  height: 345px;
+  display: flex;
+}
+.ready .ready .recept .recept-con {
+  max-width: 358px;
+  height: 345px;
+  display: flex;
+  flex-flow: column;
+}
+.ready .ready .recept .recept-con .block {
+  width: 358px;
+  height: 299px;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+}
+.ready .ready .recept .recept-con .block p {
+  background: #AEB884;
+  border-radius: 19px 19px 0 0;
+  border: 1px solid #AEB884;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1A1A1A;
+}
+.ready .ready .recept .recept-con .description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1A1A;
+  margin: 10px 0px 10px 0px;
+}
+.ready .ready .raiting {
+  height: 40px;
+  display: flex-end;
+}
+.ready .ready .raiting .raiting-con {
+  width: 160px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 16px;
+}
+.ready .ready .text-con .container {
+  display: flex;
+  margin: 0px 0px 0px 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1A1A;
+}
+.ready .comments {
+  width: 390px;
+  height: auto;
+}
+.ready .comments .comment {
+  width: 380px;
+  height: 85px;
+  display: flex;
+}
+.ready .comments .comment img {
+  width: 56px;
+  height: 56px;
+}
+.ready .comments .comment input {
+  width: 297px;
+  height: 56px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #F1EACC;
+  color: #000000;
+  border-radius: 14px;
+  border: 1px solid #85786A;
+  padding-left: 10px;
+}
+.ready .comments .bord {
+  height: 30px;
+}
+.ready .comments .bord p {
+  width: 358px;
+  height: 0px;
+  border: 1px solid #85786A;
+}
+.ready .comments .added-comment-1 .container {
+  height: 82px;
+  display: flex;
+}
+.ready .comments .added-comment-1 img {
+  width: 56px;
+  height: 56px;
+}
+.ready .comments .comment-1 {
+  height: 60px;
+  display: flex;
+  flex-flow: column;
+  margin: 0px 0px 0px 16px;
+}
+.ready .comments .user-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 12px;
+  color: #85786A;
+  margin: 0px 0px 7px 0px;
+}
+.ready .comments .comment-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A1A1A;
+  margin: 0px 0px 7px 0px;
+}
+.ready .comments .answer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #85786A;
+  margin: 0px 0px 7px 0px;
+}
+.ready .comments .added-comment-2 .container {
+  height: 82px;
+  display: flex;
+}
+.ready .comments .added-comment-2 img {
+  width: 56px;
+  height: 56px;
+}
+.ready .comments .comment-2 {
+  height: 60px;
+  display: flex;
+  flex-flow: column;
+  margin: 0px 0px 0px 16px;
+}

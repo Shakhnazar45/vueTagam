@@ -35,7 +35,7 @@
                 <button class="btn btn-next" v-on:click="next">
                     далее
                 </button>
-                <router-link to="/Ingridient">
+                <router-link to="/ready">
                     <button class="btn btn-ready">
                         завершить
                     </button>
