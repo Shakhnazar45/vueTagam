@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .input {
   width: 390px;
-  height: 480px;
+  height: 400px;
 }
 .input .input-con {
   width: 390px;
-  height: 480px;
+  height: 400px;
   display: flex;
   flex-flow: column;
   justify-content: center;

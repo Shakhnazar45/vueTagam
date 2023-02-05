@@ -36,6 +36,3 @@ body {
   width: 24px;
   height: 30px;
 }
-#app nav .list .link-active {
-  border-bottom: 3px solid #f4d031;
-}

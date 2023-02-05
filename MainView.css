@@ -118,13 +118,14 @@
 }
 .MainView .crocodile {
   width: 390px;
-  height: 418px;
+  height: auto;
   display: flex;
   align-items: flex-end;
+  margin: 20px 0 0 0;
 }
 .MainView .crocodile .croc-con {
   max-width: 358px;
-  height: 400px;
+  height: auto;
 }
 .MainView .crocodile .croc-con .acc-head {
   width: 100%;
@@ -132,13 +133,20 @@
   background: #F8D776;
   border-radius: 19px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
-.MainView .crocodile .croc-con .acc-head .text {
+.MainView .crocodile .croc-con .acc-head .n-text {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0 0;
+}
+.MainView .crocodile .croc-con .acc-head .n-text .text {
   width: 276px;
   height: 55px;
+  margin: 0 0 0 21px;
   border-right: 1px solid #000;
-  margin: 25px 0 0 0;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -146,10 +154,10 @@
   line-height: 24px;
   color: #000000;
 }
-.MainView .crocodile .croc-con .acc-head p {
+.MainView .crocodile .croc-con .acc-head .n-text p {
   width: 17px;
   height: 17px;
-  margin: 30px 22px 0 0;
+  margin: 5px 30px 0 0;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -159,6 +167,32 @@
 }
 .MainView .crocodile .croc-con .n-2, .MainView .crocodile .croc-con .n-3, .MainView .crocodile .croc-con .n-4, .MainView .crocodile .croc-con .n-5 {
   margin: -80px 0 0 0;
+}
+.MainView .crocodile .croc-con .n-2 {
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s;
+}
+.MainView .crocodile .croc-con .n-2 .list {
+  width: 314px;
+  height: 450px;
+  margin: 30px 0 0 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.MainView .crocodile .croc-con .n-2:hover {
+  height: 629px;
+  transition: all 1s;
+}
+.MainView .crocodile .croc-con .n-2:hover .list {
+  display: flex;
+}
+.MainView .crocodile .croc-con .n-2:hover .active {
+  border-bottom: 1px solid #000;
 }
 .MainView .crocodile .croc-con .n-2, .MainView .crocodile .croc-con .n-5 {
   background: #c8d7d9;

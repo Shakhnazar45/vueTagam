@@ -129,12 +129,13 @@
     }
     .crocodile{
         width: 390px;
-        height: 418px;
+        height: auto;
         display: flex;
         align-items: flex-end;
+        margin: 20px 0 0 0;
         .croc-con{
             max-width: 358px;
-            height: 400px;
+            height: auto;
             .acc-head{
                 width: 100%;
                 height: 160px;
@@ -143,39 +144,74 @@
                 border-radius: 19px;
         
                 display: flex;
-                justify-content: space-around;
-                .text{
-                    width: 276px;
+                flex-direction: column;
+                .n-text{
+                    width: 100%;
                     height: 55px;
-            
-                    border-right: 1px solid #000;
-                    margin: 25px 0 0 0;
-            
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 24px;
+                    display: flex;
+                    justify-content: space-between;
                     
-                    color: #000000;
-                }
-                p{
-                    width: 17px;
-                    height: 17px;
-                    margin: 30px 22px 0 0;
-            
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 17px;
-            
-                    color: #000000;
+                    margin: 25px 0 0 0;
+                    .text{
+                        width: 276px;
+                        height: 55px;
+                        margin: 0 0 0 21px;
+                
+                        border-right: 1px solid #000;
+                
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        
+                        color: #000000;
+                    }
+                    p{
+                        width: 17px;
+                        height: 17px;
+                        margin: 5px 30px 0 0;
+                
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                
+                        color: #000000;
+                    }
                 }
                 
             }
             .n-2,.n-3,.n-4,.n-5{
                 margin: -80px 0 0 0;
+            }
+            .n-2{
+                height: 160px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .list{
+                    width: 314px;
+                    height: 450px;
+                    margin: 30px 0 0 0;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: none;
+                }
+                transition: all 1s;
+            }
+            .n-2:hover{
+                height: 629px;
+                .list{
+                    display: flex;
+                }
+                .active{
+                    border-bottom: 1px solid #000;
+                }
+                transition: all 1s;
+
             }
             .n-2, .n-5{
                 background: #c8d7d9;
