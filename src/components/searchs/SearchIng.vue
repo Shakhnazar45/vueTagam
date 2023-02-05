@@ -9,10 +9,8 @@
 
 <script>
 export default {
-  name: 'Mix',
   data() {
     return {
-      title: 'Mix',
       index: 0,
       button: [
         { text: 'картошка' },
