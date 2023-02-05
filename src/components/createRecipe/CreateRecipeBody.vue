@@ -1,12 +1,5 @@
 <template>
     <div class="main">
-        <!-- <div class="container-fluid main-img p-0">
-            <div class="container p-0">
-                <div class="container main-pic p-0">
-                    <img src="../../assets/CreateRecipe/Img_box_light.png" alt="">
-                </div>
-            </div>
-        </div> -->
         <!-- <div>
             <button @click="addImage">Add Image</button>
             <img v-if="imageUrl" :src="assets/Favorites/img1.png" />
@@ -16,11 +9,22 @@
             <button @click="addImage">Add Image</button>
             <img v-if="imageUrl" :src="assets / Favorites / img1.png" />
         </div> -->
-        <div>
-            <input type="file" ref="fileInput" @change="onFileChange" method="post" />
-            <button @click="addImage">Add Image</button>
-            <img v-if="imageUrl" :src="imageUrl" />
+
+        <div class="container-fluid main-img p-0">
+            <div class="container p-0">
+                <div class="container main-pic p-0">
+                    <label><img src="../../assets/CreateRecipe/Img_box_light.png" alt="">
+                        <input onchange="handleChange" type="file" id="fileInput" /></label>
+                </div>
+            </div>
         </div>
+        <!-- <div class="image-upload">
+            <label for="file-input">
+                <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png" />
+            </label>
+
+            <input id="file-input" type="file" />
+        </div> -->
         <!-- <div>
             <form>
                 <input type="file" ref="fileInput" @change="uploadImage" />
@@ -225,30 +229,42 @@
 import { axios } from 'axios';
 export default {
     name: 'CreateRecipeBody',
-    props: {
-        msg: String
-    },
-    methods: {
-    uploadImage() {
-      this.image = this.$refs.fileInput.files[0];
-    },
-    submitImage() {
-      let formData = new FormData();
-      formData.append('image', this.image);
+    // props: {
+    //     msg: String
+    // },
+    // methods: {
+    //     uploadImage() {
+    //         this.image = this.$refs.fileInput.files[0];
+    //     },
+    //     submitImage() {
+    //         let formData = new FormData();
+    //         formData.append('image', this.image);
 
-      axios.post('https://localhost:7149/api/FileModule/Post-file', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
+    //         axios.post('https://localhost:7149/api/FileModule/Post-file', formData, {
+    //             headers: {
+    //                 'Content-Type': 'multipart/form-data'
+    //             }
+    //         })
+    //             .then(response => {
+    //                 this.imageUrl = response.data.files;
+    //             })
+    //             .catch(error => {
+    //                 console.error(error.message);
+    //             });
+    //     }
+    // }
+    methods: {
+        submitCategory() {
+            axios({
+                method: 'post',
+                url: 'https://localhost:7149/api/Category/show?id=1',
+                data: {
+                    firstName: 'Finn',
+                    lastName: 'Williams'
+                }
+            });
         }
-      })
-        .then(response => {
-          this.imageUrl = response.data.files;
-        })
-        .catch(error => {
-          console.error(error.message);
-        });
     }
-  }
 
 }
 </script>
