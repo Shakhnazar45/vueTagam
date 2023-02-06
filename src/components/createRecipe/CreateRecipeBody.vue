@@ -11,6 +11,9 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="alert alert-success" v-if="isSuccess">
+            Post Ceraed Successfully
+        </div> -->
         <!-- <div id="app">
             <input type="file" @change="onFileChange" />
             <div id="preview">
@@ -215,75 +218,20 @@
 
 <script>
 import { axios } from 'axios';
-// export default {
-//     name: 'CreateRecipeBody',
-//     props: {
-//         msg: String
-//     },
-//     methods: {
-//         uploadImage() {
-//             this.image = this.$refs.fileInput.files[0];
-//         },
-//     submitImage() {
-//         let formData = new FormData();
-//         formData.append('image', this.image);
-
-//         axios.post('https://localhost:7149/api/FileModule/Post-file', formData, {
-//             headers: {
-//                 'Content-Type': 'multipart/form-data'
-//             }
-//         })
-//             .then(response => {
-//                 this.imageUrl = response.data.files;
-//             })
-//             .catch(error => {
-//                 console.error(error.message);
-//             });
-//     }
-// }
-// methods: {
-//     submitCategory() {
-//         axios({
-//             method: 'post',
-//             url: 'https://localhost:7149/api/Category/show?id=',
-//         });
-//     }
-//     }
-
-// }
 export default {
-    // name: 'listImage',
+    // name: 'CreateRecipeBody',
     // data() {
     //     return {
-    //         selectedFile: null,
-    //         images: [],
-    //         image_fields: ['id', 'name'],
-    //         total_images: 1
+    //        title:'',
+    //        isSuccess: false,
     //     }
     // },
-    methods: {
-        // fileSelected(evt) {
-        //     evt.preventDefault()
-        //     console.log(evt);
-        //     this.selectedFile = evt.target.files[0]
-        // },
-        // uploadImage() {
-        //     const vm = new Vue({
-        //         el: '#app',
-        //         data() {
-        //             return {
-        //                 url: null,
-        //             }
-        //         },
-        //         methods: {
-        //             onFileChange(e) {
-        //                 const file = e.target.files[0];
-        //                 this.url = URL.createObjectURL(file);
-        //             }
-        //         }
-        //     })
-        // }
-    }
+    // methods: {
+    //     axios.get('https://localhost:7149/api/Category/show?id=1',
+    //     {title: this.title},).then(response =>{
+    //         this.isSuccess = true;
+    //         console.log(response);});
+    // }
 
 }
 </script>
