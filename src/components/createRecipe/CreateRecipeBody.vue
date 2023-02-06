@@ -1,35 +1,21 @@
 <template>
     <div class="main">
-        <!-- <div>
-            <button @click="addImage">Add Image</button>
-            <img v-if="imageUrl" :src="assets/Favorites/img1.png" />
-        </div>-->
-        <!-- <div>
-            <input type="file" ref="fileInput" />
-            <button @click="addImage">Add Image</button>
-            <img v-if="imageUrl" :src="assets / Favorites / img1.png" />
-        </div> -->
-
         <div class="container-fluid main-img p-0">
             <div class="container p-0">
                 <div class="container main-pic p-0">
-                    <label><img src="../../assets/CreateRecipe/Img_box_light.png" alt="">
-                        <input onchange="handleChange" type="file" id="fileInput" /></label>
+                    <label>
+                        <img src="../../assets/CreateRecipe/Img_box_light.png" alt="">
+                        <input type="file" ref="fileInput" @change="uploadImage" />
+                        <img v-if="imageUrl" :src="require(`../../assets/Favorites/img1.png`)" />
+                    </label>
                 </div>
             </div>
         </div>
-        <!-- <div class="image-upload">
-            <label for="file-input">
-                <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png" />
-            </label>
-
-            <input id="file-input" type="file" />
-        </div> -->
-        <!-- <div>
-            <form>
-                <input type="file" ref="fileInput" @change="uploadImage" />
-                <button type="submit" @click.prevent="submitImage">Upload Image</button>
-            </form>
+        <!-- <div id="app">
+            <input type="file" @change="onFileChange" />
+            <div id="preview">
+                <img v-if="url" :src="url" />
+            </div>
         </div> -->
         <div class="container-fluid rec-name p-0">
             <div class="container rn-con p-0">
@@ -37,6 +23,7 @@
                 <textarea type="text" name="" id=""></textarea>
             </div>
         </div>
+
         <div class="container-fluid rec-name p-0">
             <div class="container rn-con p-0">
                 <p>Описание</p>
@@ -224,46 +211,78 @@
     </div>
 </template>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js"></script>
 
 <script>
 import { axios } from 'axios';
-export default {
-    name: 'CreateRecipeBody',
-    // props: {
-    //     msg: String
-    // },
-    // methods: {
-    //     uploadImage() {
-    //         this.image = this.$refs.fileInput.files[0];
-    //     },
-    //     submitImage() {
-    //         let formData = new FormData();
-    //         formData.append('image', this.image);
+// export default {
+//     name: 'CreateRecipeBody',
+//     props: {
+//         msg: String
+//     },
+//     methods: {
+//         uploadImage() {
+//             this.image = this.$refs.fileInput.files[0];
+//         },
+//     submitImage() {
+//         let formData = new FormData();
+//         formData.append('image', this.image);
 
-    //         axios.post('https://localhost:7149/api/FileModule/Post-file', formData, {
-    //             headers: {
-    //                 'Content-Type': 'multipart/form-data'
-    //             }
-    //         })
-    //             .then(response => {
-    //                 this.imageUrl = response.data.files;
-    //             })
-    //             .catch(error => {
-    //                 console.error(error.message);
-    //             });
+//         axios.post('https://localhost:7149/api/FileModule/Post-file', formData, {
+//             headers: {
+//                 'Content-Type': 'multipart/form-data'
+//             }
+//         })
+//             .then(response => {
+//                 this.imageUrl = response.data.files;
+//             })
+//             .catch(error => {
+//                 console.error(error.message);
+//             });
+//     }
+// }
+// methods: {
+//     submitCategory() {
+//         axios({
+//             method: 'post',
+//             url: 'https://localhost:7149/api/Category/show?id=',
+//         });
+//     }
+//     }
+
+// }
+export default {
+    // name: 'listImage',
+    // data() {
+    //     return {
+    //         selectedFile: null,
+    //         images: [],
+    //         image_fields: ['id', 'name'],
+    //         total_images: 1
     //     }
-    // }
+    // },
     methods: {
-        submitCategory() {
-            axios({
-                method: 'post',
-                url: 'https://localhost:7149/api/Category/show?id=1',
-                data: {
-                    firstName: 'Finn',
-                    lastName: 'Williams'
-                }
-            });
-        }
+        // fileSelected(evt) {
+        //     evt.preventDefault()
+        //     console.log(evt);
+        //     this.selectedFile = evt.target.files[0]
+        // },
+        // uploadImage() {
+        //     const vm = new Vue({
+        //         el: '#app',
+        //         data() {
+        //             return {
+        //                 url: null,
+        //             }
+        //         },
+        //         methods: {
+        //             onFileChange(e) {
+        //                 const file = e.target.files[0];
+        //                 this.url = URL.createObjectURL(file);
+        //             }
+        //         }
+        //     })
+        // }
     }
 
 }
@@ -271,5 +290,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../../styles/recipe.scss'
+@import '../../styles/recipe.scss';
+
+body {
+  background-color: #e2e2e2;
+}
+
+#app {
+  padding: 20px;
+}
+
+#preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#preview img {
+  max-width: 100%;
+  max-height: 500px;
+}
 </style>

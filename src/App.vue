@@ -55,7 +55,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/profile-recipes">
+                <router-link to="/autorisation">
                   <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M16.9333 15H8.06099C7.39637 15 6.73827 15.148 6.12424 15.4355C5.51021 15.723 4.95228 16.1444 4.48233 

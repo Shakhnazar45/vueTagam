@@ -1,5 +1,5 @@
 <template>
-    <div class="MainView">
+    <div class="mainView">
         <header class="header p-0">
             <div class="container main-con p-0">
                 <svg width="96" height="43" viewBox="0 0 96 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,8 +16,8 @@
                 </svg>
 
                 <div class="mc">
-                    <router-link to="/mainView">
-                        <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <router-link to="/notifications">
+                        <svg class="notif" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M4.33331 13C4.33331 8.21351 8.21351 4.33331 13 4.33331V4.33331C17.7864 4.33331 21.6666 8.21351 21.6666 13V18.5151C21.6666 19.5895 21.6666 20.1267 21.4656 20.5405C21.2697 20.9439 20.9439 21.2697 20.5405 21.4656C20.1267 21.6666 19.5895 21.6666 18.5151 21.6666H13C8.21351 21.6666 4.33331 17.7864 4.33331 13V13Z"
                                 stroke="#1A1A1A" stroke-width="1.3" />
@@ -63,28 +63,28 @@
                 </div>
             </div>
         </header>
-        <recept />
-        <crocodile />
-        <moreRecept />
+        <Recept msg=""/>
+        <Crocodile msg=""/>
+        <MoreRecept msg=""/>
     </div>
 </template>
 
 
 <script>
-import recept from '@/components/Main/Recept.vue'
-import crocodile from '@/components/Main/Crocodile.vue'
-import moreRecept from '@/components/Main/MoreRecept.vue'
+import Recept from '@/components/Main/Recept.vue'
+import Crocodile from '@/components/Main/Crocodile.vue'
+import MoreRecept from '@/components/Main/MoreRecept.vue'
 import { Slide } from 'vue-burger-menu'
 
 
 export default {
-    name: 'Recept',
+    name: 'MainView',
     components: {
-        recept,
-        crocodile,
-        moreRecept,
+        Recept,
+        Crocodile,
+        MoreRecept,
         Slide
-    },
+    }
 
 }
 </script>
