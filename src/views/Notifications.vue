@@ -1,7 +1,7 @@
 <template>
   <div class="notifications">
     <div class="header">
-      <router-link to="/profile-recipes">
+      <router-link to="/mainView">
         <img src="../assets/CreateRecipe/shape.png" alt="">
       </router-link>
       <p>Уведомления</p>

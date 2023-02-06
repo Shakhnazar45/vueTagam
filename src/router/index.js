@@ -18,7 +18,7 @@ import Registration from '../views/Registration.vue'
 import Autorisation from '../views/Autorisation.vue'
 import Calendar from '../views/Calendar.vue'
 import Timer from '../views/CalendarTimer.vue'
-import MainVIew from  '../views/MainView.vue'
+import MainView from  '../views/MainView.vue'
 import Recept from  '../views/Recept.vue'
 import ReceptText from  '../views/ReceptText.vue'
 import ReceptIngridient from  '../views/ReceptIngridient.vue'
@@ -121,7 +121,7 @@ const routes = [
   {
     path: '/mainView',
     name: 'MainView',
-    component: MainVIew
+    component: MainView
   },
   {
     path: '/recept',
