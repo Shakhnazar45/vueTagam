@@ -10,7 +10,6 @@
     </div>
     <InputAutor/>
     <AutorSocial/>
-    
   </div>
 </template>
 
@@ -33,5 +32,6 @@ export default {
 
 
 <style scoped lang="scss">
-  @import '../styles/style.scss'
+  @import '../styles/style.scss';
+  
 </style>

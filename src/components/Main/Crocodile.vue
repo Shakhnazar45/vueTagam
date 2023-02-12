@@ -12,21 +12,23 @@
                     <div class="n-text active">
                         <div class="text">Национальная кухня</div>
                         <p>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 20L12 4M12 20L6 14M12 20L18 14" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 20L12 4M12 20L6 14M12 20L18 14" stroke="#1A1A1A" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </p>
                     </div>
                     <ul class="list">
                         <li class="link">
-                            ghjfwyhgh
+                            {{ info }}
                         </li>
                     </ul>
                 </div>
                 <div class="acc-head n-3">
                     <div class="n-text">
-                        <div class="text">Вегетарианские 
-                        рецепты</div>
+                        <div class="text">Вегетарианские
+                            рецепты</div>
                         <p>72</p>
                     </div>
                 </div>
@@ -50,13 +52,13 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
-
+    name: "Crocodile",
+    
 }
 </script>
     
 <style scoped lang="scss">
-
-    @import '../../styles/MainView.scss'
-
+@import '../../styles/MainView.scss'
 </style>

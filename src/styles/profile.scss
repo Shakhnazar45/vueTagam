@@ -383,6 +383,11 @@ body {
             flex-flow: column;
             align-items: flex-end;
 
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+
             p {
                 justify-content: flex-end;
                 font-family: 'Montserrat';
@@ -906,8 +911,8 @@ body {
 
         display: flex;
         align-items: center;
-        justify-content:center;
-        
+        justify-content: center;
+
 
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
