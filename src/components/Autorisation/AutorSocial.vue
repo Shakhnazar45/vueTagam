@@ -1,6 +1,3 @@
-
-import { RouterLink } from 'vue-router';
-
 <template>
   <div class="container-fluid p-0 sign-in">
     <div class="container p-0 sign-con">
@@ -32,14 +29,7 @@ import { RouterLink } from 'vue-router';
             fill="#85786A" />
         </svg>
       </div>
-      <div class="btn-avto">
-        <router-link to="profile-recipes">
-          <button class="btn reg">Вход</button>
-        </router-link>
-        <router-link to="registration">
-          <button class="btn reg">Регистрация</button>
-        </router-link>
-      </div>
+      
     </div>
   </div>
 </template>

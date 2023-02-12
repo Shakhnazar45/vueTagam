@@ -55,7 +55,9 @@
         </div>
       </div>
       <div class="options">
-        <p>Выйти</p>
+        <router-link to="/autorisation">
+          <p>Выйти</p>
+        </router-link>
         <p>Удалить аккаунт</p>
       </div>
     </div>

@@ -13,7 +13,7 @@
             <router-link to="/search-vegan">вегетарианские</router-link>
         </button>
         <button class="btn-popularity">
-            <router-link to="/search-rating">по полярности</router-link>
+            <router-link to="/search-rating">по популярности</router-link>
         </button>
     </div>
 </template>

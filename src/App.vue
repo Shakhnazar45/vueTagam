@@ -86,7 +86,6 @@
 </template>
 
 
-
 <style lang="scss">
 @import 'styles/search.scss';
 

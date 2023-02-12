@@ -29,11 +29,7 @@
             fill="#85786A" />
         </svg>
       </div>
-      <div class="btn-avto">
-        <router-link to="/autorisation">
-          <button class="btn reg">Регистрация</button>
-        </router-link>
-      </div>
+      
     </div>
   </div>
 </template>

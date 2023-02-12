@@ -63,8 +63,13 @@
                 </div>
             </div>
         </header>
-        <Recept msg=""/>
+        <!-- <Recept msg=""/> -->
         <Crocodile msg=""/>
+        <MoreRecept msg=""/>
+        <MoreRecept msg=""/>
+        <MoreRecept msg=""/>
+        <MoreRecept msg=""/>
+        <MoreRecept msg=""/>
         <MoreRecept msg=""/>
     </div>
 </template>
